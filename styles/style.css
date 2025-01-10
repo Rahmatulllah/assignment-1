@@ -1,0 +1,60 @@
+/* font styles */
+
+.fira-sans-normal {
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+  }
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 160px;
+}
+.nav-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.nav-sign-in{
+    font-size: 18px;
+    font-weight: 600;
+    color: #006A50;
+    text-decoration: none;
+    border: 1px solid #006A50;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+/* section-1 styles */
+.section-1{
+    display: flex;
+    margin:0 160px;
+    gap: 64px;
+    background-color: #C6E4D6;
+    padding: 80px 100px;
+    border-radius: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.first-title{
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+    font-weight: 400;
+}
+.first-description{
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-top: 0;
+}
+
+/* shared styles */
+.btn{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    background-color:#006A50;
+    padding: 17px 34px;
+    border-radius: 8px;
+    text-decoration: none;
+}
