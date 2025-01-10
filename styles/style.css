@@ -1,4 +1,6 @@
-
+body{
+    background-color: #F1F1F3;
+}
 /* font styles */
 
 .fira-sans-normal {
@@ -121,4 +123,33 @@ section{
     background-color: #F7EBCF;
     padding:32px 32px ;
     border-radius: 16px;
+}
+/* news section styles */
+.news-section{
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+}
+.news-btn{
+    background-color: #09A15C;
+}
+.news-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.satelite-img{
+    height: 306px;
+    width: 408px;
+    border-radius: 24px;
+}
+.news-section-2{
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    margin: 24px 0;
 }
